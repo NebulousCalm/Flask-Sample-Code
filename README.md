@@ -25,5 +25,5 @@ app.run()
 >- `app = Flask(__name__)` instantiating the class of Flask
 >- `@app.route('/')` Clarifying where in the url this will show up [In this case, '/' means the default root path]
 >- `def index():` Declaring the function so the code inside can be run
->- `return "My First Flask App!"` What output you will see on that path [In this case, '/']
+>- `return "My First Flask App!"` What output you will see on that url path [In this case, '/']
 >- `app.run()` Run the app
